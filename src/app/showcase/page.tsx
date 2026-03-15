@@ -64,7 +64,7 @@ import { useState } from "react";
 
 const fadeIn = {
   hidden: { opacity: 0, y: 30 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" as any } },
 };
 
 const stagger = {
@@ -113,7 +113,7 @@ function SectionHeader({
   id: string;
   num: string;
   title: string;
-  icon: React.ElementType;
+  icon: any;
   gradient?: string;
 }) {
   return (
@@ -158,7 +158,7 @@ function InfoCard({
   description,
   color = "purple",
 }: {
-  icon: React.ElementType;
+  icon: any;
   title: string;
   description: string;
   color?: string;
@@ -796,7 +796,7 @@ export default function ShowcasePage() {
                           initial={{ width: 0 }}
                           whileInView={{ width: item.width }}
                           viewport={{ once: true }}
-                          transition={{ duration: 1, delay: i * 0.15, ease: "easeOut" }}
+                          transition={{ duration: 1, delay: i * 0.15, ease: "easeOut" as any }}
                         >
                           <span className="text-xs font-semibold text-black">{item.value}</span>
                         </motion.div>
