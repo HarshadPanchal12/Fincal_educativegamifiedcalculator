@@ -33,20 +33,31 @@ export default function ShowcasePage() {
                     </p>
                 </div>
 
-                {/* Video Section */}
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     className="mb-20"
                 >
                     <GlassCard className="p-4 border-slate-400 bg-white" hoverEffect={false}>
-                        <div className="aspect-video w-full bg-slate-100 rounded-xl overflow-hidden relative group">
+                        <div className="aspect-video w-full bg-slate-100 rounded-xl overflow-hidden relative group flex flex-col items-center justify-center p-8 text-center">
                             <iframe
                                 src="https://app.guidde.com/share/playbooks/viF9qhpYpwPfiebs5ihAXL?origin=jdtRizhI97RTZ3YqPhQzNPP6zAr2&embed=true"
-                                className="w-full h-full border-0"
+                                className="w-full h-full border-0 absolute inset-0 z-10"
                                 allowFullScreen
                                 title="FinCal Demo Video"
                             ></iframe>
+                            <div className="relative z-0">
+                                <Play className="w-12 h-12 text-slate-300 mx-auto mb-4" />
+                                <p className="text-slate-500 font-bold mb-4">If the video player doesn't load, use the link below</p>
+                                <a
+                                    href="https://app.guidde.com/share/playbooks/viF9qhpYpwPfiebs5ihAXL?origin=jdtRizhI97RTZ3YqPhQzNPP6zAr2"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-emerald-600 font-black underline"
+                                >
+                                    Open Direct Video Link
+                                </a>
+                            </div>
                         </div>
                         <div className="mt-6 flex flex-col md:flex-row justify-between items-center gap-4 px-2">
                             <div>

@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: fincal-app
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_VERSION
+        value: 20.0.0
+      - key: NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+        fromValue: ${CLERK_PUBLISHABLE_KEY}
+      - key: CLERK_SECRET_KEY
+        fromValue: ${CLERK_SECRET_KEY}
+      - key: NEXT_PUBLIC_CLERK_SIGN_IN_URL
+        value: /sign-in
+      - key: NEXT_PUBLIC_CLERK_SIGN_UP_URL
+        value: /sign-up
+      - key: NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL
+        value: /calculator
+      - key: NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL
+        value: /calculator
