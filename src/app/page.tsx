@@ -1,5 +1,7 @@
 import ThreeScene from '@/components/landing/ThreeScene';
 import Hero from '@/components/landing/Hero';
+import Link from 'next/link';
+import { Rocket } from 'lucide-react';
 
 export default function Home() {
   return (
