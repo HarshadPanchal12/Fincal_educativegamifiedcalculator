@@ -1,6 +1,6 @@
 # FinCal: Educative Gamified Financial Calculator
 
-### 🚀 [Watch the Demo Video (Guidde)](https://app.guidde.com/share/playbooks/viF9qhpYpwPfiebs5ihAXL?origin=jdtRizhI97RTZ3YqPhQzNPP6zAr2)
+### 🌐 [Live Demo](https://fincal-app.onrender.com/) | 📄 [Detailed Documentation](https://fincal-app.onrender.com/showcase) | 🚀 [Watch the Demo Video (Guidde)](https://app.guidde.com/share/playbooks/viF9qhpYpwPfiebs5ihAXL?origin=jdtRizhI97RTZ3YqPhQzNPP6zAr2)
 
 ---
 
