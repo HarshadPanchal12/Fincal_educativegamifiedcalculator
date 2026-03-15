@@ -1,6 +1,37 @@
 # FinCal: Educative Gamified Financial Calculator
 
-### 🌐 [Live Demo](https://fincal-app.onrender.com/) | 📄 [Detailed Documentation](https://fincal-app.onrender.com/showcase) | 🚀 [Watch the Demo Video (Guidde)](https://app.guidde.com/share/playbooks/viF9qhpYpwPfiebs5ihAXL?origin=jdtRizhI97RTZ3YqPhQzNPP6zAr2)
+### 🌐 [Live Demo](https://fincal-app.onrender.com/) | 📄 [Detailed Documentation](https://fincal-app.onrender.com/showcase)
+
+[![Explore Financial Planning Features in FinCal Innovation](https://img.guidde.com/v1/playbooks/viF9qhpYpwPfiebs5ihAXL/thumbnail?v=1)](https://www.guidde.com/share/playbooks/viF9qhpYpwPfiebs5ihAXL?origin=jdtRizhI97RTZ3YqPhQzNPP6zAr2)
+
+<details>
+<summary>🎬 View Video Transcription</summary>
+
+- **00:00**: This demo showcases how FinCal Innovation helps you plan your financial future effectively.
+- **00:02**: Effectively
+- **00:05**: You'll see how to set goals, generate plans, and track your progress with ease.
+- **00:10**: Click the start planning button to begin creating your personalized financial plan.
+- **00:15**: Click continue to move forward in the planning process.
+- **00:18**: After you set the value of how much your goal costs.
+- **00:22**: According to how many years you set for the goal, you will see live inflation impact on goal cost after those years by interactive charts and realism mode.
+- **00:32**: Enter values to define the specific duration or amount for your goal.
+- **00:36**: You can change the value and see the effects.
+- **00:39**: Click continue to proceed with your financial planning steps.
+- **00:43**: Here is the notification you will get for every achievement during the planning.
+- **00:48**: Enter the expected annual returns according to the risk-return spectrum: 6% for Fixed Deposit (low risk), 8% for Debt Funds, 10% for Balanced/Medium, and 15%+ for aggressive/very aggressive.
+- **01:04**: Click 12% to apply a moderate return rate to your financial model.
+- **01:09**: Click generate plan to create a customized Financial strategy based on your inputs.
+- **01:14**: Click Wise Guardian.
+- **01:17**: You have picked a realistic inflation benchmark.
+- **01:20**: Click Realistic Thinker, your return expectations aligned with Market averages.
+- **01:26**: Click leaderboard to see how your planning compares with other users.
+- **01:53**: Click Indian rupees to examine the projected investment value from the simulation.
+- **02:21**: Track XP, Levels, and Plans created on your personal dashboard.
+- **03:44**: Click Financial Academy to access comprehensive financial education content.
+- **04:19**: Remember: Time in Market beats timing the market.
+
+</details>
+
 
 ---
 
